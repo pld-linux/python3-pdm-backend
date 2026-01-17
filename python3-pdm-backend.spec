@@ -61,6 +61,8 @@ metadane w formacie PEP 621 i konwertuje do formatu Core metadata
 %py3_build_pyproject
 
 %if %{with tests}
+GIT_AUTHOR_NAME="Builder" \
+GIT_AUTHOR_EMAIL="builder@localhost" \
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 PYTHONPATH=$(pwd)/src \
 %{__python3} -m pytest tests
