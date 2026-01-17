@@ -7,13 +7,13 @@
 Summary:	The build backend used by PDM that supports latest packaging standards
 Summary(pl.UTF-8):	Używany przez PDM backend budowania obsługujący najnowsze standardy pakietowania
 Name:		python3-pdm-backend
-Version:	2.4.5
+Version:	2.4.6
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pdm-backend/
 Source0:	https://files.pythonhosted.org/packages/source/p/pdm-backend/pdm_backend-%{version}.tar.gz
-# Source0-md5:	6e05613e331b4cb95a973ff99f642bc9
+# Source0-md5:	63dd231ba6206cc834b205694208df40
 URL:		https://pypi.org/project/pdm-backend/
 BuildRequires:	python3-build
 BuildRequires:	python3-installer
